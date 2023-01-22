@@ -1,0 +1,286 @@
+.div1{
+    border: 3px black solid;
+    width: 520px;
+    height: 150px;
+    margin-left: 351px;
+    padding-left: 30px;
+    margin-top: 60px;
+}
+h1{
+text-align: center;  
+  color: #21609b;
+}
+input{
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 501px;
+}
+#button1{
+    position: absolute;
+    border: none;
+    width: 8em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#96d6f3);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+}
+body{
+    background-image: url(/src/image/téléchargement.jpg);
+}
+
+/*input ajouter*/
+.input_aj {
+    margin-left: 50px;
+  color: black;
+  font-size: 1.15rem;
+  width: 200px;
+  padding: .5rem 1rem;
+  border: 2px solid transparent;
+  outline: none;
+  border-radius: 1.5rem;
+  background-color:#96d6f3 ;
+  letter-spacing: 1px;
+}
+
+.input_aj:hover,
+.input_aj:focus{
+  color: black;
+  border: 2px solid #03a9f4;
+  background-color: transparent;
+}
+/*button ajouter*/
+.buttAjo{
+   
+    position: absolute;
+    border: none;
+    width: 8em;
+    height: 2.2em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 1px;
+}
+.buttAjo:hover{
+    animation:animation 8s linear infinite;
+    border: none;
+}
+@keyframes animation{
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+}
+input{
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 550px;
+}
+.buttAjo:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.buttAjo:hover::before{
+    filter: blur(20px);
+}
+/*button Supprimer*/
+.suppe{
+    position: absolute;
+    border: none;
+    width: 8em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#96d6f3);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.suppe:hover{
+    animation:animation 8s linear infinite;
+    border: none;
+}
+@keyframes animation{
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+}
+.suppe:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#96d6f3);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.suppe:hover::before{
+    filter: blur(20px);
+}
+/*button done*/
+.done{
+    position: absolute;
+    border: none;
+    width: 8em;
+    height: 2.8em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#96d6f3);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 270px;
+}
+.done:hover{
+    animation:animation 8s linear infinite;
+    border: none;
+}
+@keyframes animation{
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+}
+.done:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg#03a9f4,#96d6f3);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.done:hover::before{
+    filter: blur(20px);
+}
+
+/*li*/
+.ispa {
+    
+    margin-top: 20px;
+    list-style: none;
+  color: black;
+  font-size: 1.15rem;
+  width: 150px;
+  padding: .5rem 1rem;
+  border: 2px solid transparent;
+  outline: none;
+  border-radius: 1.5rem;
+  background-color:#f195c9 ;
+  letter-spacing: 1px;
+    text-align: center;
+}
+.border{
+    border: 3px solid rgb(218, 194, 194);
+    margin-top: 10px;
+    margin-left: 420px;
+    width: 550px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+/*input done*/
+.realsie{
+    background-color: #f441a5;
+    font-size: 30px;
+    color: white;
+}
+
+@media(max-width:560px){
+    .done{
+        position: absolute;
+        border: none;
+        width: 4em;
+        height: 2.8em;
+        line-height: 2em;
+        text-align: center;
+        background: linear-gradient(90deg,#03a9f4,#96d6f3);
+        background-size: 300%;
+        border-radius: 30px;
+        text-transform: uppercase;
+        cursor: pointer;
+        z-index: 1;
+        margin-left: 270px;
+    }
+    h1{
+          color: #21609b;
+          margin-left: 50px;
+        }
+    input{
+        border-radius: 20px;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 200px;
+    }
+    .ispa {
+    
+        margin-top: 10px;
+        list-style: none;
+      color: black;
+      font-size: 1.15rem;
+      width: 150px;
+      padding: .5rem 1rem;
+      border: 2px solid transparent;
+      outline: none;
+      border-radius: 1.5rem;
+      background-color:#f195c9 ;
+      letter-spacing: 1px;
+        text-align: center;
+    }
+    .realsie{
+        background-color: #f441a5;
+        font-size: 19px;
+        color: white;
+    }
+    .border{
+        border: 1px solid rgb(218, 194, 194);
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 500px;
+        background-color: white;
+        border-radius: 50px;
+    }
+    .done:before{
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        z-index: -1;
+        background: linear-gradient(90deg#03a9f4,#96d6f3);
+        background-size: 300%;
+        border-radius: 15px;
+        transition: 1s;
+    }
+   
+}
